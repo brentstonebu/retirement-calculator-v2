@@ -30,3 +30,21 @@ git clone <your-repo-url>
 cd retirement-calculator-v2
 npm install
 npm run dev
+
+docs/                    # All Appendices
+├── Appendix-A-v2.0.md
+├── Appendix-B-Designs.md
+└── Appendix-C-Dev-Specs.md
+
+src/
+├── app/
+├── components/
+│   ├── ui/              # Ash's design system
+│   ├── charts/
+│   └── wizard/
+├── lib/
+│   └── engine/          # Jordan's calculation core
+├── store/
+├── data/
+│   └── defaults.ts
+└── hooks/
